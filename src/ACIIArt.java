@@ -14,12 +14,6 @@ public class ACIIArt {
                 "     .\n" +
                 "     .\n" +
                 "     .\n" +
-                "     .\n" +
-                "     .\n" +
-                "     .\n" +
-                "     .\n" +
-                "     .\n" +
-                "     .\n" +
                 "     .");
         System.out.println("   \n" +
                 "        _ ._  _ , _ ._\n" +

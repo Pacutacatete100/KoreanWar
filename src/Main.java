@@ -1,7 +1,7 @@
 import java.util.*;
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Scanner myScanner = new Scanner(System.in);
         Story s = new Story();
         Player player = new Player(s);
@@ -15,6 +15,7 @@ public class Main {
         int playerStoryChoice =  myScanner.nextInt();
         if(playerStoryChoice == 1){
             player.setStory(americanSoldierStory);
+            AmericanSoldierStory.executeAmericanSoldierStory(player);
 
         }else if(playerStoryChoice == 2){
             player.setStory(koreanCivilianStory);
