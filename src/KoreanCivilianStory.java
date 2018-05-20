@@ -21,49 +21,18 @@ public class KoreanCivilianStory extends Story {
                     "fields to check whats happening. You look up and see a bomber plane.\n" +
                     "You feel relieved but somehow also feel like something is wrong. \n" +
                     "You see the bomb compartment open up...");
-            bombsAway();
+            ACIIArt.bombsAway();
             System.out.println("Another one...");
-            bombsAway();
+            ACIIArt.bombsAway();
             System.out.println("And another one");
-            bombsAway();
-            System.out.println("The next thing you know you're waking up from being unconscious. \n" +
+            ACIIArt.bombsAway();
+            System.out.println("The next thing you know you're waking up from being unconscious.\n" +
+                    "You open your eyes and see the planes passing above you. You notice something peculiar.\n" +
                     "");
 
         }else if(fieldOrFlee == 2){//if player decides to flee to seoul
 
         }
     }
-    public void bombsAway(){
-        System.out.printf("   |\\**/|      \n" +
-                "   \\ == /\n" +
-                "    |  |\n" +
-                "    |  |\n" +
-                "    \\  /\n" +
-                "     \\/\n");
-        System.out.println("     .\n" +
-                "     .\n" +
-                "     .\n" +
-                "     .\n" +
-                "     .\n" +
-                "     .\n" +
-                "     .\n" +
-                "     .\n" +
-                "     .\n" +
-                "     .\n" +
-                "     .\n" +
-                "     .\n" +
-                "     .\n" +
-                "     .\n" +
-                "     .");
-        System.out.println("   \n" +
-                "        _ ._  _ , _ ._\n" +
-                "        (_ ' ( `  )_  .__)\n" +
-                "      ( (  (    )   `)  ) _)\n" +
-                "     (__ (_   (_ . _) _) ,__)\n" +
-                "         `~~`\\ ' . /`~~`\n" +
-                "              ;   ;\n" +
-                "              /   \\\n" +
-                "_____________/_ __ \\_____________\n" +
-                "\n");
-    }
+
 }
