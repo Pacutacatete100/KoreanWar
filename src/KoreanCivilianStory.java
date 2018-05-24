@@ -33,9 +33,9 @@ public class KoreanCivilianStory extends Story {
             System.out.println("The next thing you know you're waking up from being unconscious.\n" +
                     "You open your eyes and see the planes passing above you. You notice something peculiar.\n" +
                     "The plane that dropped the bombs, its a F-51D Mustang, its an American plane!!\n" +
-                    "As your life force slowly fades, you ask yourself, why? Why would the Americans do this? \n" +
+                    "As your life force slowly fades away, you ask yourself, why? Why would the Americans do this? \n" +
                     "Why would the Americans bomb their own allies?\n" +
-                    "You breathe your last breath, you close your eyes to never open them again.\n" +
+                    "You breathe your last breath, you close your eyes to never open them again\n" +
                     "press R to restart");
 
         }else if(fieldOrFlee == 2){//if player decides to flee to seoul
