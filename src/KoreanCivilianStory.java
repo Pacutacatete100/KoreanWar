@@ -55,6 +55,7 @@ public class KoreanCivilianStory extends Story {
             Thread.sleep(1000);
             System.out.println("You like that poem because in a weird way it gave you hope but at the same time,\n" +
                     "it reflected the tragedy that was the Korean War,");
+            
             //TODO: continue this story line
         }
     }
