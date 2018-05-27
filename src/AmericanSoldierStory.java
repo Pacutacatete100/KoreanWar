@@ -18,9 +18,19 @@ public class AmericanSoldierStory extends Story {
         System.out.println("As soon as you know it, you have arrived at your destination.\n" +
                 "You get off the boat and go to shore.\n" +
                 "The first thing you notice is all the destruction.\n" +
-                "All the destruction caused by the napalm bombs, all the destruction caused by bullets,\n" +
+                "The planes passing above you");
+        ACIIArt.planes();
+        Thread.sleep(800);
+        System.out.println("\n\n");
+        ACIIArt.planes();
+        Thread.sleep(800);
+        System.out.println("\n\n");
+        ACIIArt.planes();
+        Thread.sleep(800);
+        System.out.println("\n\n");
+        Thread.sleep(1800);
+        System.out.println("All the destruction caused by the napalm bombs, all the destruction caused by bullets,\n" +
                 "the guns, the grenades");
-        Thread.sleep(1400);
         System.out.println("What do you choose to do?\n" +
                 "1. Stand perfectly still and admire all the destruction happening around you\n" +
                 "2. Go help a fallen solder\n" +
@@ -68,7 +78,7 @@ public class AmericanSoldierStory extends Story {
                 Thread.sleep(2500);
                 System.out.println("Jack: Ah yes. You know its always been my dream to open up my own restaurant");
                 Thread.sleep(2500);
-                System.out.println("You: Its my dream too! You know after this we should open up our own restaurant after this hell finishes");
+                System.out.println("You: Its my dream too! You know after this hell is over we should open up our own restaurant");
                 Thread.sleep(2500);
                 System.out.println("Jack: Yeah! We'd open one in Southern California, we'll serve classic American food");
                 Thread.sleep(2500);
@@ -82,13 +92,14 @@ public class AmericanSoldierStory extends Story {
                 Thread.sleep(2500);
                 System.out.println("You start scrambling for a way to help Jack. You rack your brain to try to think of something");
                 Thread.sleep(2500);
-                System.out.println("These damned commies, why did they have to start a war? God dammit America, why'd you have to Continue it?");
+                System.out.println("These damned commies, why did they have to start a war? God dammit America, why'd you have to continue it?");
                 Thread.sleep(2500);
                 System.out.println("You: Maybe we could- I don't know, what if- How could we- what the-");
                 Thread.sleep(2500);
                 System.out.println("Jack: Noah.. Noah! NOAH!");
-                Thread.sleep(2500);
-                System.out.println("You stop scrambling for a way to get him out of this situation. You stand up straight and look directly into Jacks eyes");
+                Thread.sleep(2700);
+                System.out.println("You stop scrambling for a way to get him out of this situation. \n" +
+                        "You stand up straight and look directly into Jacks eyes");
                 Thread.sleep(2500);
                 System.out.println("Jack: Noah, there is no way out. This is goodbye.");
                 Thread.sleep(2500);
@@ -100,26 +111,84 @@ public class AmericanSoldierStory extends Story {
                 Thread.sleep(2500);
                 System.out.println("Jack puts his hand on your shoulder.\n" +
                         "Jack: I know Noah, I know.");
-                Thread.sleep(2500);
+                Thread.sleep(2600);
                 System.out.println("His eyes also start to tear up. You both salute each other, knowing this is goodbye forever.");
                 Thread.sleep(2500);
                 System.out.println("Jack lifts his foot up");
                 Thread.sleep(2000);
                 System.out.println("*click*");
                 Thread.sleep(2500);
-                System.out.println("A tear runs down your face and one down Jack's, as you both smile at each other, still crying.");
+                System.out.println("A tear runs down your face and one down Jack's.");
                 Thread.sleep(2500);
                 System.out.println("Press R to restart");
 
 
             }else if(obeyOrIgnore == 2){//if player decides to obey and go to seoul
-
+                System.out.println("You obviously obey General MacArthur's orders and go back to the boat to go to Seoul.");
+                Thread.sleep(2800);
+                System.out.println("You get to Seoul and your first orders are to go to some shopping district which the North Koreans will be invading.");
+                Thread.sleep(1700);
+                System.out.println("Once you get there, you see the communists coming in with T-34 tanks from the opposite side.");
+                Thread.sleep(1500);
+                ACIIArt.tanks();
+                Thread.sleep(1600);
+                ACIIArt.tanks();
+                Thread.sleep(1600);
+                ACIIArt.tanks();
+                Thread.sleep(2000);
+                System.out.println("There are still people in the market, most of them fleeing for their lives, \n" +
+                        "yet there are a couple of people who dont move.");
+                Thread.sleep(1500);
+                System.out.println("What do you do?\n" +
+                        "1. Go help one of the people standing still\n" +
+                        "2. Go fight against the enemy");
+                int helpOrFight = myScanner.nextInt();
+                if(helpOrFight == 1){//if player decides to help a civilian
+                    System.out.println("You see a young woman dressed in a yellow flannel shirt, she stands still literally in the middle of everything.");
+                    Thread.sleep(1500);
+                    System.out.println("You decide to go help her.");
+                    Thread.sleep(1700);
+                    System.out.println("You run towards her, evading all attacks coming directly at you. As soon as you get to her, you sweep her off her feet.");
+                    Thread.sleep(1500);
+                    System.out.println("You try to run her to safety. As your'e running to the safe space you spotted earlier, you start to feel a sharp pain");
+                    Thread.sleep(1500);
+                    System.out.println("You look down to your side, only to see it bleeding. You've been shot.");
+                    Thread.sleep(1500);
+                    System.out.println("You start to feel light headed, you drop the lady on the ground as you fall to the floor. \n" +
+                            "You faint for a quick second, but you quickly recover");
+                    Thread.sleep(1500);
+                    System.out.println("The lady you tried to help is now trying to help you. Shes scrambling for things in her bag, shes looking for first aids around her\n" +
+                            "but you know its useless.");
+                    Thread.sleep(1500);
+                    System.out.println("As you slowly start to fade away, you start crying. Crying over you dream that will never come true.");
+                    Thread.sleep(1500);
+                    System.out.println("Your family that will never be the same");
+                    Thread.sleep(1500);
+                    System.out.println("This world, that will be forever changed....");
+                    Thread.sleep(2800);
+                    System.out.println("Press R to restart");
+                }else if(helpOrFight == 2){//if player decides to fight
+                    System.out.println("You look at what comes ahead. It is clear that you will not go back home. You look at Jack, you salute each other. \n" +
+                            "You know this is goodbye.");
+                    Thread.sleep(1500);
+                    System.out.println("You run into battle, determined to maybe make this world a tiny bit better. As you run into battle you feel something.\n\n" +
+                            "Something you haven't felt in a long time. Alleviation. This feeling, it brings you freedom from the burden that is war.");
+                    Thread.sleep(1500);
+                    System.out.println("You disappear into the heat of the battle, gun raised, screaming at the top of your lungs, fulfilling your duty as a soldier.");
+                    Thread.sleep(2400);
+                    System.out.println("\"The soldier above all others prays for peace,");
+                    Thread.sleep(1300);
+                    System.out.println("for it is the soldier who must suffer and bear the deepest wounds and scars of war\"");
+                    Thread.sleep(1500);
+                    System.out.println("-Douglas MacArthur");
+                }
             }
-            //TODO: continue this story line
 
         }else if(soldierChoice1 == 3){//if player decides to go inland
-            System.out.println("You see many people fighting near the shore. You decide to go farther inland, hoping others will follow you, but no one does.\n" +
-                    "As you get farther into the thick jungle of Inchon, you encounter a soldier. But he isn't a soldier, or is he? Hes too young to be a soldier, he's just a kid.\n" +
+            System.out.println("You see many people fighting near the shore. You decide to go farther inland, hoping others will follow you, \n" +
+                    "but no one does.\n" +
+                    "As you get farther into the thick jungle of Inchon, you encounter a soldier. \n" +
+                    "But he isn't a soldier, or is he? Hes too young to be a soldier, he's just a kid.\n" +
                     "You look at the young boys face, straight in the eyes, as he looks back.");
             Thread.sleep(1500);
             System.out.println("He's fearful, you can see the fear in his eyes, you can feel it in the air.");
