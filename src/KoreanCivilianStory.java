@@ -35,27 +35,37 @@ public class KoreanCivilianStory extends Story {
                     "The plane that dropped the bombs, its a F-51D Mustang, its an American plane!!\n" +
                     "As your life force slowly fades away, you ask yourself, why? Why would the Americans do this? \n" +
                     "Why would the Americans bomb their own allies?\n" +
-                    "You breathe your last breath, you close your eyes to never open them again\n" +
-                    "press R to restart");
+                    "You breathe your last breath, you close your eyes to never open them again");
+            Thread.sleep(1500);
+            System.out.println("Press R to restart");
 
         }else if(fieldOrFlee == 2){//if player decides to flee to seoul
             System.out.println("You decide to flee to Seoul, afraid of being caught in the crossfire.\n" +
                     "On the train on your way there, you see american and South Korean soldiers \n" +
                     "10 meters away from russian and North Korean soldiers, \n" +
-                    "not fighting but mourning fellow fallen soldiers.\n" +
-                    "You remember a poem by So Chong-Ju:\n");
-            Thread.sleep(1300);
-            System.out.println("So hushed was the southern sky,");
+                    "not fighting but mourning fellow fallen soldiers.");
             Thread.sleep(1500);
-            System.out.println("The sky that was ready for war,");
-            Thread.sleep(1500);
-            System.out.println("An orchid was like the budding new country, It’s petals shining for the liberated people");
-            Thread.sleep(1500);
-            System.out.println("Wide open for new hope.\n");
+            System.out.println("This really hits you, it shows that this war, like all wars are tragic");
             Thread.sleep(1000);
-            System.out.println("You like that poem because in a weird way it gave you hope but at the same time,\n" +
-                    "it reflected the tragedy that was the Korean War,");
-            
+            System.out.println("That there is never really a winner. Everyone comes out losing something.");
+            Thread.sleep(1500);
+            System.out.println("Your cousin that went to fight, KIA. Your mom, caught in a friendly fire while shopping.\n" +
+                    "Your brother, lost his leg when debris hit him after a bombing in Seoul.");
+            Thread.sleep(1500);
+            System.out.println("You look back at the soldiers of opposite sides mourning.");
+            Thread.sleep(1500);
+            System.out.println("God damn these Russians, abusing our land like a dog, these damn Americans, bombing their own allies.\n" +
+                    "Why God? Why??");
+            Thread.sleep(1500);
+            System.out.println("As your eyes fill up with tears, you arrive at Seoul. \n" +
+                    "You get off the train and find a taxi to take to your aunts place");
+            Thread.sleep(1500);
+            System.out.println("While driving there, you see destruction. So much destruction. \n" +
+                    "It hits you, What if my aunts place has been destroyed? What if shes dead? Where do I go?");
+            Thread.sleep(1000);
+            System.out.println("You panic for the rest of the trip, but as soon as you get there, your panic ends.\n" +
+                    "Your aunts place is fine, at least it looks fine.");
+            Thread.sleep(1500);
             //TODO: continue this story line
         }
     }
