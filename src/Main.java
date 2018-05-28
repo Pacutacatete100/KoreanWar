@@ -19,7 +19,7 @@ public class Main {
 
         }else if(playerStoryChoice == 2){
             player.setStory(koreanCivilianStory);
-            koreanCivilianStory.executeKorenCivianStory(player);
+            koreanCivilianStory.executeKoreanCivilanStory(player);
         }
 
     }
