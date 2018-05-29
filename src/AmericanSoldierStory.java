@@ -38,7 +38,7 @@ public class AmericanSoldierStory extends Story {
         System.out.println("\n\n");
         Thread.sleep(1800);
         System.out.println("All the destruction caused by the napalm bombs, all the destruction caused by bullets,\n" +
-                "the guns, the grenades");
+                "the guns, the grenades.");
         Thread.sleep(2500);
         System.out.println("What do you choose to do?\n" +
                 "1. Stand perfectly still and admire all the destruction happening around you\n" +
@@ -64,12 +64,12 @@ public class AmericanSoldierStory extends Story {
                     "You run to his side and try to help him.\n" +
                     "You apply a bandage to his wounded arm, right next to the american flag emblem. \n" +
                     "His name is Jack, he's your new friend");
-            Thread.sleep(2300);
+            Thread.sleep(4300);
             System.out.println("You start to receive orders directly from General MacArtur through your walkie-talkie:");
-            Thread.sleep(1000);
+            Thread.sleep(2500);
             System.out.println("\"Good job everyone, objective complete. Your next destination: Seoul. \n" +
                     "Get back on your boats, Ill give you your new orders upon arrival\"");
-            Thread.sleep(2500);
+            Thread.sleep(3000);
             System.out.println("1. Ignore General MacArthur's order and go farther inland with Jack\n" +
                     "2. Obey General MacArthur's orders and go to Seoul");
             int obeyOrIgnore = myScanner.nextInt();
@@ -80,50 +80,50 @@ public class AmericanSoldierStory extends Story {
                 System.out.println("As you go farther into the thick jungle, this feeling that something is wrong increases.\n" +
                         "Whacking branches and plants out of your way while crouching to keep cover, you and Jack whisper to each other each others dreams.");
                 System.out.println("Jack: You know I was a baker before getting recruited?");
-                Thread.sleep(2500);
+                Thread.sleep(2700);
                 System.out.println("You: Yeah?");
-                Thread.sleep(2500);
+                Thread.sleep(2700);
                 System.out.println("Jack: Yeah. My family owns a small diner in South Dakota. I was in charge of making the bread for it.");
-                Thread.sleep(2500);
+                Thread.sleep(2700);
                 System.out.println("You: I actually worked in a restaurant too");
-                Thread.sleep(2500);
+                Thread.sleep(2700);
                 System.out.println("Jack: Really?");
-                Thread.sleep(2500);
+                Thread.sleep(2700);
                 System.out.println("You: Yeah. I wasn't a cook. Only a waiter");
-                Thread.sleep(2500);
+                Thread.sleep(2700);
                 System.out.println("Jack: Ah yes. You know its always been my dream to open up my own restaurant");
-                Thread.sleep(2500);
+                Thread.sleep(2700);
                 System.out.println("You: Its my dream too! You know after this hell is over we should open up our own restaurant");
-                Thread.sleep(2500);
+                Thread.sleep(2700);
                 System.out.println("Jack: Yeah! We'd open one in Southern California, we'll serve classic American food");
-                Thread.sleep(2500);
+                Thread.sleep(2700);
                 System.out.println("You: And we can give discounts to fellow veterans too!");
-                Thread.sleep(2500);
+                Thread.sleep(2700);
                 System.out.println("Jack: Hahahaha, yeah. We'll hire the best cooks in the nation, serve the best foo-");
-                Thread.sleep(2500);
+                Thread.sleep(2700);
                 System.out.println("*click*");
-                Thread.sleep(2500);
+                Thread.sleep(2700);
                 System.out.println("You look to Jack's eyes. You both know what has happened. You both know that there is no way out alive.");
-                Thread.sleep(2500);
+                Thread.sleep(2700);
                 System.out.println("You start scrambling for a way to help Jack. You rack your brain to try to think of something");
-                Thread.sleep(2500);
+                Thread.sleep(2700);
                 System.out.println("These damned commies, why did they have to start a war? God dammit America, why'd you have to continue it?");
-                Thread.sleep(2500);
+                Thread.sleep(2700);
                 System.out.println("You: Maybe we could- I don't know, what if- How could we- what the-");
-                Thread.sleep(2500);
+                Thread.sleep(2700);
                 System.out.println("Jack: Noah.. Noah! NOAH!");
                 Thread.sleep(2700);
                 System.out.println("You stop scrambling for a way to get him out of this situation. \n" +
                         "You stand up straight and look directly into Jacks eyes");
-                Thread.sleep(2500);
+                Thread.sleep(2800);
                 System.out.println("Jack: Noah, there is no way out. This is goodbye.");
-                Thread.sleep(2500);
+                Thread.sleep(2800);
                 System.out.println("You: But what about the Diner?");
-                Thread.sleep(2500);
+                Thread.sleep(2800);
                 System.out.println("Your eyes start to water up");
-                Thread.sleep(2500);
+                Thread.sleep(2800);
                 System.out.println("What about our dream? We're both too young to die here, right now");
-                Thread.sleep(2500);
+                Thread.sleep(2800);
                 System.out.println("Jack puts his hand on your shoulder.\n" +
                         "Jack: I know Noah, I know.");
                 Thread.sleep(2600);
@@ -166,7 +166,7 @@ public class AmericanSoldierStory extends Story {
                     System.out.println("You see a young woman dressed in a yellow flannel shirt, she stands still literally in the middle of everything.");
                     Thread.sleep(2500);
                     System.out.println("You decide to go help her.");
-                    Thread.sleep(1700);
+                    Thread.sleep(2100);
                     System.out.println("You run towards her, evading all attacks coming directly at you. As soon as you get to her, you sweep her off her feet.");
                     Thread.sleep(2500);
                     System.out.println("You try to run her to safety. As your'e running to the safe space you spotted earlier, you start to feel a sharp pain");
@@ -196,7 +196,7 @@ public class AmericanSoldierStory extends Story {
                     System.out.println("You disappear into the heat of the battle, gun raised, screaming at the top of your lungs, fulfilling your duty as a soldier.");
                     Thread.sleep(2400);
                     System.out.println("\"The soldier above all others prays for peace,");
-                    Thread.sleep(1300);
+                    Thread.sleep(2000);
                     System.out.println("for it is the soldier who must suffer and bear the deepest wounds and scars of war\"");
                     Thread.sleep(2500);
                     System.out.println("-Douglas MacArthur");
