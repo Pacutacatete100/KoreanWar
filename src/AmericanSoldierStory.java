@@ -24,8 +24,9 @@ public class AmericanSoldierStory extends Story {
         System.out.println("You get off the boat and go to shore.");
         Thread.sleep(2500);
         System.out.println("The first thing you notice is all the destruction.");
-        Thread.sleep(3500);
+        Thread.sleep(3000);
         System.out.println("The planes passing above you");
+        Thread.sleep(3500);
         ACIIArt.planes();
         Thread.sleep(800);
         System.out.println("\n\n");
@@ -50,13 +51,14 @@ public class AmericanSoldierStory extends Story {
             Thread.sleep(2500);;
             System.out.println("Suddenly time goes so slow it seems almost as it has stopped. You can hear your heartbeat, loudly.");
             Thread.sleep(2500);
-            System.out.println("You look around, you see soldiers fighting, ou see Mk.2 grenades being thrown, but right in front of you, is a 7.62 mm bullet from an M1 carbine.");
-            Thread.sleep(2500);
+            System.out.println("You look around, you see soldiers fighting, ou see Mk.2 grenades being thrown, but right in front of you,\n" +
+                    "is a 7.62 mm bullet from an M1 carbine.");
+            Thread.sleep(3000);
             System.out.println("This time, time really stops. Everything freezes, except for the bullet. ");
             Thread.sleep(2500);
             System.out.println("You see your life flash before your eyes as you just let it happen");
             Thread.sleep(3000);
-            System.out.println("Press R to restart");
+            System.out.println("Restart the game to play again.");
         }else if(soldierChoice1 == 2){//if player decides to help fallen soldier
             System.out.println("Getting off the boat, you look to your right and see a fellow soldier struggling for his life. \n" +
                     "You run to his side and try to help him.\n" +
@@ -133,7 +135,7 @@ public class AmericanSoldierStory extends Story {
                 Thread.sleep(2500);
                 System.out.println("A tear runs down your face and one down Jack's.");
                 Thread.sleep(2500);
-                System.out.println("Press R to restart");
+                System.out.println("Restart the game to play again.");
 
 
             }else if(obeyOrIgnore == 2){//if player decides to obey and go to seoul
@@ -183,7 +185,7 @@ public class AmericanSoldierStory extends Story {
                     Thread.sleep(2500);
                     System.out.println("This world, that will be forever changed....");
                     Thread.sleep(2800);
-                    System.out.println("Press R to restart");
+                    System.out.println("Restart the game to play again.");
                 }else if(helpOrFight == 2){//if player decides to fight
                     System.out.println("You look at what comes ahead. It is clear that you will not go back home. You look at Jack, you salute each other. \n" +
                             "You know this is goodbye.");
@@ -219,7 +221,7 @@ public class AmericanSoldierStory extends Story {
             Thread.sleep(2000);
             System.out.println("You know its fear, because it's your own fear too");
             Thread.sleep(2500);
-            System.out.println("Press R to restart");
+            System.out.println("Restart the game to play again.");
         }
 
     }

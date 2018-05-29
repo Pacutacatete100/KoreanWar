@@ -5,7 +5,11 @@ public class Main {
         Scanner myScanner = new Scanner(System.in);
         Story s = new Story();
         Player player = new Player(s);
+        chooseStory(player);
 
+    }
+    public static void chooseStory(Player player) throws InterruptedException {
+        Scanner myScanner = new Scanner(System.in);
         KoreanCivilianStory koreanCivilianStory = new KoreanCivilianStory(player);
         AmericanSoldierStory americanSoldierStory = new AmericanSoldierStory(player);
 

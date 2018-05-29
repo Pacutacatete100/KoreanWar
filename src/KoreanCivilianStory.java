@@ -1,6 +1,8 @@
+import java.awt.datatransfer.MimeTypeParseException;
 import java.util.Scanner;
 
 public class KoreanCivilianStory extends Story {
+
 
     public KoreanCivilianStory(Player player) {
         super();
@@ -9,11 +11,12 @@ public class KoreanCivilianStory extends Story {
     public void executeKoreanCivilanStory(Player player) throws InterruptedException {
         Scanner myScanner = new Scanner(System.in);
 
+
         System.out.println("Your name is Ji Yeon, \n" +
                 "you are a high school teacher in rural areas of South Korea during the Korean War.");
-        Thread.sleep(2500);
+        Thread.sleep(2600);
         System.out.println("You arrive to school one day and you notice that multiple students are missing.");
-        Thread.sleep(2500);
+        Thread.sleep(2700);
         System.out.println("You hear many fighter jets coming.\n" +
                 "1. Go outside to see what's happening\n" +
                 "2. Flee to Seoul out of fear of getting caught in a crossfire");
@@ -23,7 +26,7 @@ public class KoreanCivilianStory extends Story {
                     "fields to check whats happening. You look up and see a bomber plane.\n" +
                     "You feel relieved but somehow also feel like something is wrong. \n" +
                     "You see the bomb compartment open up...");
-            Thread.sleep(3000);
+            Thread.sleep(3700);
             ACIIArt.bombsAway();
             Thread.sleep(1700);
             System.out.println("Another one...");
@@ -43,7 +46,7 @@ public class KoreanCivilianStory extends Story {
             System.out.println("\n\n\n");
             Thread.sleep(1000);
             ACIIArt.planes();
-            System.out.println("\n\n\n");
+            System.out.println("\n\n");
             Thread.sleep(1700);
             System.out.println("The planes that dropped the bombs, they're a F-51D Mustangs, they're American planes!!");
             Thread.sleep(2500);
@@ -51,80 +54,137 @@ public class KoreanCivilianStory extends Story {
                     "Why would the Americans bomb their own allies? What will happen to Hanguk?(Korea)");
             Thread.sleep(2800);
             System.out.println("You breathe your last breath, you close your eyes, to never open them again");
-            System.out.println("Press R to restart");
+            System.out.println("Restart the game to play again.");
 
         }else if(fieldOrFlee == 2){//if player decides to flee to seoul
             System.out.println("You decide to flee to Seoul, afraid of being caught in the crossfire.\n" +
                     "On the train on your way there, you see american and South Korean soldiers \n" +
                     "10 meters away from russian and North Korean soldiers, \n" +
                     "not fighting but mourning fellow fallen soldiers.");
-            Thread.sleep(2500);
+            Thread.sleep(6000);
             System.out.println("This really hits you, it shows that this war, like all wars are tragic");
-            Thread.sleep(1000);
+            Thread.sleep(2600);
             System.out.println("That there is never really a winner. Everyone comes out losing something.");
-            Thread.sleep(1700);
+            Thread.sleep(2500);
             System.out.println("Your cousin that went to fight, KIA. Your mom, caught in a friendly fire while shopping.\n" +
                     "Your brother, lost his leg when debris hit him after a bombing in Seoul.");
-            Thread.sleep(1700);
+            Thread.sleep(4600);
             System.out.println("You look back at the soldiers of opposite sides mourning.");
-            Thread.sleep(1700);
+            Thread.sleep(2800);
             System.out.println("God damn these Russians, abusing our land like a dog, these damn Americans, bombing their own allies.\n" +
-                    "Why God? Why??");
-            Thread.sleep(1700);
+                    "Why God? Why??\n");
+            Thread.sleep(3000);
             System.out.println("As your eyes fill up with tears, you arrive at Seoul. \n" +
                     "You get off the train and find a taxi to take to your aunts place");
-            Thread.sleep(1700);
+            Thread.sleep(3600);
             System.out.println("While driving there, you see destruction. So much destruction. \n" +
                     "It hits you, What if my aunts place has been destroyed? What if shes dead? Where do I go?");
-            Thread.sleep(2400);
+            Thread.sleep(3600);
             System.out.println("You panic for the rest of the trip, but as soon as you get there, your panic ends.\n" +
-                    "Your aunts place is fine, at least it looks fine.");
-            Thread.sleep(1700);
+                    "Your aunts place is fine, at least it looks fine.\n");
+            Thread.sleep(3700);
             System.out.println("You enter through the door and the first thing you notice is the shrine of your cousin your aunt has put up\n" +
                     "You also notice that your aunt is there praying. You dont say anything and let her finish her payers...");
-            Thread.sleep(2500);
+            Thread.sleep(4300);
             System.out.println("Her: Ah Ji Yeon, you came!");
-            Thread.sleep(1700);
+            Thread.sleep(2000);
             System.out.println("You: Yes! So glad to see you but, what happened to your place?");
-            Thread.sleep(1700);
+            Thread.sleep(2200);
             System.out.println("You look around the room, you notice there are cracks in the walls and ceilings\n" +
                     "broken pictures of your family, broken plates, pots and glasses.");
-            Thread.sleep(1700);
-            System.out.println("\"I see you've noticed all the recent damage to the place. There was an attack 2 days ago.");
-            Thread.sleep(2600);
-            System.out.println("The bombs dropped not even 5 blocks away. Thank god they were small bombs or this place would have been destroyed\"");
-            Thread.sleep(2700);
-            System.out.println("\"Sweetie, do you mind going and getting some ingredients for lunch please?\"");
-            Thread.sleep(1700);
+            Thread.sleep(3300);
+            System.out.println("Her: I see you've noticed all the recent damage to the place. There was an attack 2 days ago.");
+            Thread.sleep(2900);
+            System.out.println("Her: The bombs dropped not even 5 blocks away. Thank god they were small bombs or this place would have been destroyed");
+            Thread.sleep(3200);
+            System.out.println("Her: Sweetie, do you mind going and getting some ingredients for lunch please?");
+            Thread.sleep(2900);
             System.out.println("1. Decline to rest\n" +
                     "2. Accept and go into town");
             int acceptOrDecline = myScanner.nextInt();
             if(acceptOrDecline == 1){//if user declines to go shopping
-                System.out.println("Sorry auntie, its been a long day, rather just stay here and rest");
-                Thread.sleep(1300);
-                System.out.println("That's ok, I'll go later then");
+                System.out.println("You: Sorry auntie, its been a long day, rather just stay here and rest");
+                Thread.sleep(2700);
+                System.out.println("Her: That's ok, I'll go later then. Your room is the one down the hallway to the right.");
+                Thread.sleep(2900);
+                System.out.println("You get to the door of the room that shes letting you stay in, but something feels weird");
+                Thread.sleep(2800);
+                System.out.println("You open it and you immediately recognize what it is.");
+                Thread.sleep(2600);
+                System.out.println("Its your cousins room, untouched from when he left it.");
+                Thread.sleep(2600);
+                System.out.println("The posters of cars still on the wall, hanging on by one thumbtack,");
+                Thread.sleep(2600);
+                System.out.println("the bed still unmade from when he woke up the day he left for the army,");
+                Thread.sleep(2600);
+                System.out.println("the drawers empty and still open from when he packed his clothes.");
+                Thread.sleep(2600);
+                System.out.println("All of it, it was all still there, untouched.");
+                Thread.sleep(2900);
+                System.out.println("Your aunt passes by with a tray of tea and cookies. She sees you looking into your cousins room. She smiles");
+                Thread.sleep(2600);
+                System.out.println("Her: It still smells like him, that's why I don't change anything.");
+                Thread.sleep(2800);
+                System.out.println("Suddenly, your aunt bursts into tears.\n");
+                Thread.sleep(2600);
+                System.out.println("Her: I miss him so much you know, so damn much.");
+                Thread.sleep(2600);
+                System.out.println("You then burst into tears.");
+                Thread.sleep(2500);
+                System.out.println("You: I know auntie, I do too. I do too.");
+                Thread.sleep(3000);
+                System.out.println("After a while, your aunt gives you a note from your cousin he left to his family.\n");
+                Thread.sleep(2700);
+                System.out.println("\"Dear family,");
+                Thread.sleep(2200);
+                System.out.println("Ever since I was a little boy, I have dreamed of serving this great country.");
+                Thread.sleep(2700);
+                System.out.println("Today, I got a letter of acceptance from the RKAF.(Republic of Korea Armed Forces)");
+                Thread.sleep(2700);
+                System.out.println("Unfortunately, I will have to leave immediately.");
+                Thread.sleep(2700);
+                System.out.println("Although it might be hoping for too much, I wish to return one day and open a small bakery, ");
+                Thread.sleep(2700);
+                System.out.println("where I can serve the best bread in the nation.");
+                Thread.sleep(2700);
+                System.out.println("I hope to serve my country well, and to serve my family well too.");
+                Thread.sleep(2700);
+                System.out.println("Wish me luck, and if I don't see you again, I love you. So much.");
+                Thread.sleep(2100);
+                System.out.println("- Jong Sun\"\n");
+                Thread.sleep(2300);
+                System.out.println("As soon as you finish reading the note, you start crying hysterically.");
+                Thread.sleep(2700);
+                System.out.println("Tears drops drop on the note, like the blood of a soldier, never to come home again.\n");
+                Thread.sleep(2900);
+                System.out.println("\"The true soldier fights not because he hates what is in front of him, but because he loves what is behind him.\"\n" +
+                        "-G.K. Chesterton");
+                Thread.sleep(3100);
+                System.out.println("-------------------END--------------------");
+
+
             }else if(acceptOrDecline == 2){//if user accepts to go shopping
                 System.out.println("Sure thing auntie, what do you need?");
                 Thread.sleep(2500);
-                System.out.println("\"2 candles, 10 grams or turmeric, 2 pineapples and a lighter\"");
-                Thread.sleep(1600);
+                System.out.println("Her: 2 candles, 10 grams or turmeric, 2 pineapples and a lighter\"");
+                Thread.sleep(2900);
                 System.out.println("Ok sounds good, I'll go right now.");
                 Thread.sleep(2900);
                 System.out.println("You arrive at the market, and you remember what your aunt said");
                 Thread.sleep(2500);
                 System.out.println("\"2 candles...\" What would she need that for? she has light at her place.");
-                Thread.sleep(1400);
+                Thread.sleep(2800);
                 System.out.println("It must be for your cousins shrine...");
-                Thread.sleep(2000);
+                Thread.sleep(2900);
                 System.out.println("You get everything your auntie asked for, plus some chocolate for yourself");
-                Thread.sleep(1600);
+                Thread.sleep(2900);
                 System.out.println("NO PLEASE I SWEAR, I'M NOT A COMMIE, NO PLEASE, I'M TELLING YOU YOU HAVE THE WRONG GUY, HEEEEEELLPP");
-                Thread.sleep(2500);
+                Thread.sleep(3200);
                 System.out.println("You see 2 South Korean soldiers arresting a person because he has been accused of being a commie.");
-                Thread.sleep(1300);
+                Thread.sleep(2800);
                 System.out.println("If he is telling the truth, then he has been framed. \n" +
                         "Framing your competition, people you don't like or just plain enemies has become a common tactic to eliminate them.");
-                Thread.sleep(1300);
+                Thread.sleep(3300);
                 System.out.println("Since the South Korean government is so paranoid against communist and spies,\n" +
                         "they will take almost any accusation seriously, \n" +
                         "and it will lead to the imprisonment or even execution of the framed person.");
@@ -207,7 +267,7 @@ public class KoreanCivilianStory extends Story {
                     System.out.println("As you sit there crying over the loss of hope and happiness of the world, you hear an explosion not even a meter and a half away.\n" +
                             "You know this is the end, but at least it will end the misery that is the Korean War.");
                     Thread.sleep(2500);
-                    System.out.println("Press R to restart");
+                    System.out.println("Restart the game to play again.");
                 }
 
             }
